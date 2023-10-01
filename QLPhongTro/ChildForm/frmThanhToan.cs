@@ -74,11 +74,7 @@ namespace QLPhongTro.ChildForm
         }
 
      
-        private void btnThanhToanTraPhong_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-            new frmTraPhong(IDThuePhong).ShowDialog();
-        }
+      
 
         private void btnThanhToanGiaHan_Click(object sender, EventArgs e)
         {

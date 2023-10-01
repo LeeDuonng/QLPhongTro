@@ -219,7 +219,7 @@
             // 
             this.tảiLạiDữLiệuToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.tảiLạiDữLiệuToolStripMenuItem.Name = "tảiLạiDữLiệuToolStripMenuItem";
-            this.tảiLạiDữLiệuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tảiLạiDữLiệuToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.tảiLạiDữLiệuToolStripMenuItem.Text = "Tải lại dữ liệu";
             this.tảiLạiDữLiệuToolStripMenuItem.Click += new System.EventHandler(this.tảiLạiDữLiệuToolStripMenuItem_Click);
             // 
@@ -227,7 +227,7 @@
             // 
             this.thoátToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.thoátToolStripMenuItem.Text = "Xuất file Exel";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 
@@ -235,7 +235,7 @@
             // 
             this.thoátToolStripMenuItem1.BackColor = System.Drawing.Color.White;
             this.thoátToolStripMenuItem1.Name = "thoátToolStripMenuItem1";
-            this.thoátToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.thoátToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
             this.thoátToolStripMenuItem1.Text = "Thoát";
             this.thoátToolStripMenuItem1.Click += new System.EventHandler(this.thoátToolStripMenuItem1_Click);
             // 

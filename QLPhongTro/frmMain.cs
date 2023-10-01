@@ -15,7 +15,6 @@ namespace QLPhongTro
     public partial class frmMain : Form
     {
        
-        private Database db;
         private string connetionString = @"Data Source=LEDUONG\SQLEXPRESS;Initial Catalog=QLPhongTro;Integrated Security=True";
         private SqlConnection conn;
 
@@ -245,7 +244,8 @@ namespace QLPhongTro
 
         private void doanhThuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            var f = new frmDoanhThu();
+            AddForm(f);
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

@@ -62,7 +62,7 @@ namespace QLPhongTro.ChildForm
         {
             db = new Database();
 
-            var timKiem = txtTimKiem.Text.Trim();
+            var timKiem = "";
             var lstPra = new List<CustomParameter>()
             {
                 new CustomParameter()

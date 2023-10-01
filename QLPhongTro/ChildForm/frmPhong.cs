@@ -128,5 +128,10 @@ namespace QLPhongTro.ChildForm
         {
             LoadDsPhong();
         }
+
+        private void dgvPhong_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

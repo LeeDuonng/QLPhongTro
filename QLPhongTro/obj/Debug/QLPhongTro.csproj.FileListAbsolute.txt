@@ -41,6 +41,6 @@ D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.csproj.Generat
 D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.csproj.CoreCompileInputs.cache
 D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.exe
 D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.pdb
-D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.ChildForm.frmTraPhong.resources
 D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.ChildForm.frmPhongTrong.resources
 D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.ChildForm.frmTienDichVu.resources
+D:\Projects\QLPhongTro\QLPhongTro\QLPhongTro\obj\Debug\QLPhongTro.ChildForm.frmDoanhThu.resources

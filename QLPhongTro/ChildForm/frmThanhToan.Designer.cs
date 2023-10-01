@@ -41,7 +41,6 @@
             this.btnThanhToanGiaHan = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.grbContent = new System.Windows.Forms.GroupBox();
-            this.btnThanhToanTraPhong = new System.Windows.Forms.Button();
             this.lblConLai = new System.Windows.Forms.Label();
             this.lblTienDien = new System.Windows.Forms.Label();
             this.lblTongTienCanThanhToan = new System.Windows.Forms.Label();
@@ -162,7 +161,7 @@
             this.btnHuy.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnHuy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuy.ForeColor = System.Drawing.Color.White;
-            this.btnHuy.Location = new System.Drawing.Point(435, 281);
+            this.btnHuy.Location = new System.Drawing.Point(336, 281);
             this.btnHuy.Name = "btnHuy";
             this.btnHuy.Size = new System.Drawing.Size(216, 23);
             this.btnHuy.TabIndex = 6;
@@ -175,11 +174,11 @@
             this.btnThanhToanGiaHan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.btnThanhToanGiaHan.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThanhToanGiaHan.ForeColor = System.Drawing.Color.White;
-            this.btnThanhToanGiaHan.Location = new System.Drawing.Point(42, 281);
+            this.btnThanhToanGiaHan.Location = new System.Drawing.Point(124, 281);
             this.btnThanhToanGiaHan.Name = "btnThanhToanGiaHan";
             this.btnThanhToanGiaHan.Size = new System.Drawing.Size(188, 23);
             this.btnThanhToanGiaHan.TabIndex = 5;
-            this.btnThanhToanGiaHan.Text = "Thanh toán và gia hạn";
+            this.btnThanhToanGiaHan.Text = "Thanh toán";
             this.btnThanhToanGiaHan.UseVisualStyleBackColor = false;
             this.btnThanhToanGiaHan.Click += new System.EventHandler(this.btnThanhToanGiaHan_Click);
             // 
@@ -197,7 +196,6 @@
             // grbContent
             // 
             this.grbContent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.grbContent.Controls.Add(this.btnThanhToanTraPhong);
             this.grbContent.Controls.Add(this.txtThanhToan);
             this.grbContent.Controls.Add(this.label2);
             this.grbContent.Controls.Add(this.btnHuy);
@@ -228,19 +226,6 @@
             this.grbContent.Size = new System.Drawing.Size(699, 347);
             this.grbContent.TabIndex = 16;
             this.grbContent.TabStop = false;
-            // 
-            // btnThanhToanTraPhong
-            // 
-            this.btnThanhToanTraPhong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnThanhToanTraPhong.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThanhToanTraPhong.ForeColor = System.Drawing.Color.White;
-            this.btnThanhToanTraPhong.Location = new System.Drawing.Point(236, 281);
-            this.btnThanhToanTraPhong.Name = "btnThanhToanTraPhong";
-            this.btnThanhToanTraPhong.Size = new System.Drawing.Size(193, 23);
-            this.btnThanhToanTraPhong.TabIndex = 8;
-            this.btnThanhToanTraPhong.Text = "Thanh toán và trả phòng";
-            this.btnThanhToanTraPhong.UseVisualStyleBackColor = false;
-            this.btnThanhToanTraPhong.Click += new System.EventHandler(this.btnThanhToanTraPhong_Click);
             // 
             // lblConLai
             // 
@@ -522,6 +507,5 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button btnThanhToanTraPhong;
     }
 }
